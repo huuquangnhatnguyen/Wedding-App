@@ -1,0 +1,123 @@
+/* styles.css */
+
+nav {
+  background-color: #333;
+  padding: 15px;
+}
+
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family:'Precious', cursive;
+}
+
+.navbar li {
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  line-height: 1.5; /* Add line-height for better vertical centering */
+  display: inline-block; /* Ensure proper centering */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .navbar li {
+    margin-right: 1.5vw; /* Adjust spacing for smaller screens */
+  }
+
+  .navbar a {
+    font-size: 2vw; /* Adjust font size for smaller screens */
+  }
+}
+
+
+/* styles.css */
+
+.photoGallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.sliderContainer {
+  position: relative;
+  margin: 20px auto;
+}
+
+.sliderImage {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.sliderButtons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.sliderButtons button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.seeMoreButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.RsvpForm {
+  padding: 20px;
+  text-align: center;
+}
+
+.FormContainer {
+  max-width: 300px;
+  position: relative;
+  margin: 20px auto;
+  background-color: plum;
+}
+
+.FormContainer ul{
+  padding: 0px;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  font-family:'Precious', cursive;
+}
